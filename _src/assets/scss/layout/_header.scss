@@ -12,6 +12,8 @@
 .menu__button {
     width: 44px;
     height: 44px;
+    border: none;
+    padding: 0;
     background-color: $color-tertiary;
     position: fixed;
     top: 0;
@@ -25,6 +27,8 @@
 }
 
 .header__container {
+    max-width: 290px;
+    margin: 0 15px 53px 15px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -50,4 +54,23 @@
     font-weight: $font-weight-normal;
     color: $color-light;
     text-align: center;
+}
+
+.scroll-down__container {
+    width: 45px;
+    height: 45px;
+    border-radius: 22.5px;
+    background-color: $color-light;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroll-down__link {
+    padding: 5px;
+}
+
+.scroll-down__image {
+    width: 20px;
+    height: auto;
 }
