@@ -1,0 +1,50 @@
+.section1 {
+    background-color: $color-light;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1__container {
+    max-width: 730px;
+    margin: 30px 15px 45px 15px;
+}
+
+.section1__tag {
+    font-size: 14px;
+    color: $color-midtone;
+    line-height: 2.14;
+}
+
+.section1__title {
+    margin: 0;
+    font-family: $font-family-secondary;
+    font-size: 24px;
+    font-weight: $font-weight-bold;
+    line-height: 1.25;
+}
+
+.section1__text {
+    margin: 15px 0 30px 0;
+    color: $color-dark-midtone;
+    line-height: 1.67;
+}
+
+.go-button__container {
+    width: 76px;
+    height: 45px;
+    border: 2px solid $color-secondary;
+    border-radius: 22.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.go-button__link {
+    font-size: 20px;
+    font-weight: $font-weight-medium;
+    color: $color-secondary;
+    text-decoration: none;
+    line-height: 2.25;
+}
