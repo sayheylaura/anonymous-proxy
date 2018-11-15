@@ -29,6 +29,7 @@
     margin: 15px 0 30px 0;
     color: $color-dark-midtone;
     line-height: 1.67;
+    text-align: left;
 }
 
 .go-button__container {
@@ -42,9 +43,32 @@
 }
 
 .go-button__link {
+    padding: 0 20px;
     font-size: 20px;
     font-weight: $font-weight-medium;
     color: $color-secondary;
     text-decoration: none;
     line-height: 2.25;
+}
+
+@media all and (min-width:768px) {
+    
+    .section1__container {
+        margin: 30px 39px 60px 39px;
+    }
+
+    .section1__title {
+        font-size: 24px;
+        line-height: 1.73;
+    }
+
+    .section1__text {
+        margin-top: 30px;
+        font-size: 20px;
+        line-height: 1.5;
+    }
+
+    .go-button__container {
+        width: 91px;
+    }
 }
