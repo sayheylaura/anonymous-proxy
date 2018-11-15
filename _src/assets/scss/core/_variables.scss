@@ -1,4 +1,21 @@
 // Colors
 
+$color-primary: #304268;
+$color-secondary: #f26002;
+$color-tertiary: #0271bc;
 $color-light: #fff;
-$color-midtone: #4a4a4a;
+$color-light-midtone: #eff9ff;
+$color-midtone: #8ccbea;
+$color-dark-midtone: #4a4a4a;
+$color-dark: #000;
+
+// Fonts
+
+$font-family-primary: 'Roboto', sans-serif;
+$font-family-secondary: 'Roboto Slab', serif;
+$font-size: 18px;
+$font-color-base: $color-dark;
+$font-color-light: $color-light;
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-bold: 700;

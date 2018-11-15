@@ -6,6 +6,11 @@
 
 body {
     margin: 0;
+    font-family: $font-family-primary;
+    font-size: $font-size;
+    font-weight: $font-weight-normal;
+    color: $font-color-base;
+    background-color: $color-light;
 }
 
 @import 'layout/header';
