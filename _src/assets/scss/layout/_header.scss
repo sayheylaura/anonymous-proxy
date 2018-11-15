@@ -4,3 +4,28 @@
     background: url('assets/images/cover.jpg') left top no-repeat;
     background-size: cover;
 }
+
+.menu__button {
+    width: 44px;
+    height: 44px;
+    background-color: $color-tertiary;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.menu__image {
+    width: 16px;
+    height: 14px;
+    margin: 15px 14px;
+}
+
+.header__title {
+    font-family: $font-family-secondary;
+    font-size: 42px;
+    font-weight: $font-weight-bold;
+    color: $color-light;
+    text-align: center;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+
