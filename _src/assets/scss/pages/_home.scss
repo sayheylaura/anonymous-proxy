@@ -1,4 +1,9 @@
+// Main
+
+// Section 1
+
 .section1 {
+    width: 100%;
     background-color: $color-light;
     display: flex;
     flex-direction: column;
@@ -14,6 +19,7 @@
 .section1__tag {
     font-size: 14px;
     color: $color-midtone;
+    text-transform: capitalize;
     line-height: 2.14;
 }
 
@@ -22,6 +28,7 @@
     font-family: $font-family-secondary;
     font-size: 24px;
     font-weight: $font-weight-bold;
+    text-transform: capitalize;
     line-height: 1.25;
 }
 
@@ -88,4 +95,61 @@
     .go-button__container {
         width: 160px;
     }
+}
+
+// Section 2
+
+.section2 {
+    width: 100%;
+    padding: 30px 15px 60px 15px;
+    background-color: $color-light-midtone;
+}
+
+.section2__title {
+    margin: 0;
+    font-family: $font-family-secondary;
+    font-size: 24px;
+    font-weight: $font-weight-bold;
+    text-transform: capitalize;
+    line-height: 1.25;
+    text-align: center;
+}
+
+.section2__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.item__title {
+    margin: 0;
+    font-family: $font-family-secondary;
+    font-weight: $font-weight-bold;
+    line-height: 1.67;
+    text-align: center;
+}
+
+.item__text {
+    margin: 0;
+    line-height: 1.67;
+    text-align: center;
+}
+
+.more-reasons__container {
+    width: 76px;
+    height: 45px;
+    border: 2px solid $color-secondary;
+    border-radius: 22.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.more-reasons__link {
+    padding: 0 20px;
+    font-size: 20px;
+    font-weight: $font-weight-medium;
+    color: $color-secondary;
+    text-decoration: none;
+    line-height: 2.25;
 }
