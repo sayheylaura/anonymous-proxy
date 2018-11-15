@@ -1,1 +1,1 @@
-body {background-color: red;}
+* {-webkit-box-sizing: border-box;box-sizing: border-box;}body {margin: 0;}.hero {width: 100%;min-height: 100vh;background: url("assets/images/cover.jpg") left top no-repeat;background-size: cover;}

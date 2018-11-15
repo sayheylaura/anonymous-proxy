@@ -1,11 +1,16 @@
 @import 'core/variables';
 
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
 @import 'layout/header';
 
 @import 'layout/footer';
 
 @import 'pages/home';
 
-body {
-    background-color: red;
-}
