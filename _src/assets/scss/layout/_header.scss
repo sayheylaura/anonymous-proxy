@@ -91,3 +91,18 @@
         font-size: 24px;
     }
 }
+
+@media all and (min-width:1280px) {
+
+    .header__container {
+        margin-bottom: 13px;
+    }
+
+    .header__title {
+        max-width: 730px;
+        font-size: 100px;
+        line-height: 1.32;
+        text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    }
+
+}
