@@ -55,6 +55,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    &:hover {
+        background-color: $color-secondary;
+    }
 }
 
 .go-button__link {
@@ -64,6 +68,10 @@
     color: $color-secondary;
     text-decoration: none;
     line-height: 2.25;
+
+    &:hover {
+        color: $color-light;
+    }
 }
 
 // Section 2 mobile version
@@ -117,15 +125,24 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    &:hover {
+        border: 2px solid $color-secondary;
+        background-color: $color-light;
+    }
 }
 
 .more-reasons__link {
-    padding: 0 20px;
+    padding: 0 34px;
     font-size: 20px;
     font-weight: $font-weight-medium;
     color: $color-light;
     text-decoration: none;
     line-height: 2.25;
+
+    &:hover {
+        color: $color-secondary;
+    }
 }
 
 // Main tablet version
