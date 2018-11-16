@@ -116,9 +116,13 @@
 }
 
 .section2__list {
-    margin: 0;
+    margin: 45px 0;
     padding: 0;
     list-style: none;
+    display: grid;
+    grid-template-columns: 184px;
+    grid-row-gap: 45px;
+    justify-content: center;
 }
 
 .item__title {
@@ -136,9 +140,10 @@
 }
 
 .more-reasons__container {
-    width: 76px;
+    width: 184px;
     height: 45px;
-    border: 2px solid $color-secondary;
+    margin: 0 auto;
+    background-color: $color-secondary;
     border-radius: 22.5px;
     display: flex;
     justify-content: center;
@@ -149,7 +154,7 @@
     padding: 0 20px;
     font-size: 20px;
     font-weight: $font-weight-medium;
-    color: $color-secondary;
+    color: $color-light;
     text-decoration: none;
     line-height: 2.25;
 }
