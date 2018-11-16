@@ -47,29 +47,37 @@
     text-align: left;
 }
 
-.go-button__container {
+// .go-button__container {
+//     width: 76px;
+//     height: 45px;
+//     border: 2px solid $color-secondary;
+//     border-radius: 22.5px;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+
+//     &:hover {
+//         background-color: $color-secondary;
+//     }
+// }
+
+.go-button__link {
     width: 76px;
     height: 45px;
     border: 2px solid $color-secondary;
     border-radius: 22.5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    &:hover {
-        background-color: $color-secondary;
-    }
-}
-
-.go-button__link {
-    padding: 0 20px;
+    background-color: $color-light;
     font-size: 20px;
     font-weight: $font-weight-medium;
     color: $color-secondary;
     text-decoration: none;
+    text-align: center;
     line-height: 2.25;
+    display: inline-block;
+    transition: all ease 1s;
 
     &:hover {
+        background-color: $color-secondary;
         color: $color-light;
     }
 }
@@ -135,8 +143,9 @@
 .more-reasons__link {
     width: 184px;
     height: 45px;
-    margin: 0 auto;
+    border: 2px solid $color-secondary;
     border-radius: 22.5px;
+    margin: 0 auto;
     background-color: $color-secondary;
     font-size: 20px;
     font-weight: $font-weight-medium;
@@ -148,7 +157,6 @@
     transition: all ease 1s;
 
     &:hover {
-        border: 2px solid $color-secondary;
         background-color: $color-light;
         color: $color-secondary;
     }
@@ -175,7 +183,7 @@
         line-height: 1.5;
     }
 
-    .go-button__container {
+    .go-button__link {
         width: 91px;
     }
 
@@ -208,7 +216,7 @@
         line-height: 1.5;
     }
 
-    .more-reasons__container {
+    .more-reasons__link {
         width: 210px;
     }
 }
@@ -229,7 +237,7 @@
         line-height: 1.41;
     }
 
-    .go-button__container {
+    .go-button__link {
         width: 160px;
     }
 
@@ -250,7 +258,7 @@
         justify-content: center;
     }
 
-    .more-reasons__container {
+    .more-reasons__link {
         width: 255px;
     }
 }
