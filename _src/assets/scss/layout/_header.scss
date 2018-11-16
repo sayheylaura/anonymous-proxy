@@ -1,122 +1,115 @@
-.hero {
-    width: 100%;
-    min-height: 100vh;
-    background: url('../images/cover.jpg') center center no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    position: relative;
+.header {
+  width: 100%;
+  min-height: 100vh;
+  background: url('../images/cover.jpg') center center no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
 }
 
-.header__anchor {
-    width: 0;
-    height: 0;
-    position: absolute;
-    top: 0;
+.header-anchor {
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 0;
 }
 
 .menu__button {
-    width: 44px;
-    height: 44px;
-    border: none;
-    padding: 0;
-    background-color: $color-tertiary;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    cursor: pointer;
+  width: 44px;
+  height: 44px;
+  border: none;
+  padding: 0;
+  background-color: $color-tertiary;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  cursor: pointer;
 }
 
 .menu__image {
-    width: 16px;
-    height: 14px;
-    margin: 15px 14px;
+  width: 16px;
+  height: 14px;
+  margin: 15px 14px;
 }
 
 .header__container {
-    max-width: 290px;
-    margin: 0 15px 53px 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+  max-width: 290px;
+  margin: 0 15px 53px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  @media all and (min-width: 768px) {
+    max-width: 690px;
+    margin-bottom: 45px;
+  }
+
+  @media all and (min-width:1280px) {
+    max-width: 730px;
+    margin-bottom: 13px;
+  }
 }
 
 .header__title {
-    margin: 0;
-    font-family: $font-family-secondary;
-    font-size: 42px;
-    font-weight: $font-weight-bold;
-    color: $color-light;
-    text-align: center;
-    text-transform: uppercase;
-    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
-    line-height: 1.31;
+  margin: 0;
+  font-family: $font-family-secondary;
+  font-size: 42px;
+  font-weight: $font-weight-bold;
+  color: $color-light;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+  line-height: 1.31;
+
+  @media all and (min-width: 768px) {
+    max-width: 690px;
+    font-size: 80px;
+    line-height: 1.33;
+  }
+
+  @media all and (min-width:1280px) {
+    max-width: 730px;
+    font-size: 100px;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  }
 }
 
 .header__text {
-    margin: 10px 0 45px 0;
-    font-size: 16px;
-    color: $color-light;
-    text-align: center;
+  margin: 10px 0 45px 0;
+  font-size: 16px;
+  color: $color-light;
+  text-align: center;
+
+  @media all and (min-width: 768px) {
+    margin: 20px 0 30px 0;
+    font-size: 24px;
+  }
+
+  @media all and (min-width:1280px) {
+    margin-top: 0;
+  }
 }
 
 .scroll-down__container {
-    width: 45px;
-    height: 45px;
-    border-radius: 50%;
-    background-color: $color-light;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: $color-light;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .scroll-down__link {
-    padding: 18px 13px 15px 13px;
+  padding: 18px 13px 15px 13px;
 }
 
 .scroll-down__image {
-    width: 20px;
-    height: auto;
-}
-
-@media all and (min-width:768px) {
-
-    .header__container {
-        max-width: 690px;
-        margin-bottom: 45px;
-    }
-
-    .header__title {
-        max-width: 690px;
-        font-size: 80px;
-        line-height: 1.33;
-    }
-
-    .header__text {
-        margin: 20px 0 30px 0;
-        font-size: 24px;
-    }
-}
-
-@media all and (min-width:1280px) {
-
-    .header__container {
-        max-width: 730px;
-        margin-bottom: 13px;
-    }
-
-    .header__title {
-        max-width: 730px;
-        font-size: 100px;
-        line-height: 1.32;
-        text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
-    }
-
-    .header__text {
-        margin-top: 0;
-    }
+  width: 20px;
+  height: auto;
 }
