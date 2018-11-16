@@ -90,6 +90,13 @@
     background-color: $color-light-midtone;
 }
 
+.section2__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .section2__title {
     margin: 0;
     font-family: $font-family-secondary;
@@ -97,7 +104,6 @@
     font-weight: $font-weight-bold;
     text-transform: capitalize;
     line-height: 1.25;
-    text-align: center;
 }
 
 .section2__list {
@@ -105,9 +111,9 @@
     padding: 0;
     list-style: none;
     display: grid;
-    grid-template-columns: 184px;
-    grid-row-gap: 45px;
-    justify-content: center;
+    grid-template-rows: minmax(auto, auto) minmax(auto, auto) minmax(auto, auto);
+    grid-template-columns: minmax(auto, 184px);
+    grid-gap: 45px 0;
 }
 
 .item__title {
@@ -145,7 +151,6 @@
     height: 45px;
     border: 2px solid $color-secondary;
     border-radius: 22.5px;
-    margin: 0 auto;
     background-color: $color-secondary;
     font-size: 20px;
     font-weight: $font-weight-medium;
@@ -189,11 +194,6 @@
 
     // Section 2
 
-    .section2 {
-        padding-right: 40px;
-        padding-left: 40px;
-    }
-
     .section2__title {
         font-size: 26px;
         line-height: 1.73;
@@ -201,9 +201,9 @@
 
     .section2__list {
         margin-bottom: 60px;
-        grid-template-columns: 212px 212px 212px;
-        grid-column-gap: 27px;
-        justify-content: center;
+        grid-template-rows: minmax(auto, auto);
+        grid-template-columns: minmax(auto, 210px) minmax(auto, 210px) minmax(auto, 210px);
+        grid-gap: 0 27px;
     }
 
     .item__title {
@@ -253,9 +253,7 @@
     }
 
     .section2__list {
-        grid-template-columns: 352px 352px 352px;
-        grid-column-gap: 26px;
-        justify-content: center;
+        grid-template-columns: minmax(auto, 352px) minmax(auto, 352px) minmax(auto, 352px);
     }
 
     .more-reasons__link {
