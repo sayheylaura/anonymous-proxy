@@ -9,6 +9,22 @@
     position: relative;
 }
 
+@keyframes arrow {
+    0% {
+        transform: scale(1);
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    50% {
+        transform: scale(1.2);
+        box-shadow: 0 5px 6px rgba(0, 0, 0, 0.5);
+    }
+
+    100% {
+        transform: scale(1);
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    }
+}
+
 .arrow__container {
     width: 45px;
     height: 45px;
@@ -20,6 +36,7 @@
     align-items: center;
     position: absolute;
     top: -22px;
+    animation: arrow 4s infinite;
 }
 
 .arrow__link {
