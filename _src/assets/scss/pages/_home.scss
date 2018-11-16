@@ -1,6 +1,6 @@
-// Main
+// Main mobile version
 
-// Section 1 mobile version
+// Section 1
 
 .section1 {
     width: 100%;
@@ -120,7 +120,7 @@
     line-height: 2.25;
 }
 
-// Tablet version
+// Main tablet version
 
 @media all and (min-width:768px) {
     
@@ -179,7 +179,7 @@
     }
 }
 
-// Desktop version
+// Main desktop version
 
 @media all and (min-width:1280px) {
 
@@ -197,5 +197,26 @@
 
     .go-button__container {
         width: 160px;
+    }
+
+    // Section 2
+
+    .section2 {
+        padding-top: 60px;
+    }
+
+    .section2__title {
+        font-size: 32px;
+        line-height: 1.41;
+    }
+
+    .section2__list {
+        grid-template-columns: 352px 352px 352px;
+        grid-column-gap: 26px;
+        justify-content: center;
+    }
+
+    .more-reasons__container {
+        width: 255px;
     }
 }
