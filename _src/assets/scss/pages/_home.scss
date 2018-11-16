@@ -1,6 +1,6 @@
 // Main
 
-// Section 1
+// Section 1 mobile version
 
 .section1 {
     width: 100%;
@@ -58,46 +58,7 @@
     line-height: 2.25;
 }
 
-@media all and (min-width:768px) {
-    
-    .section1__container {
-        margin: 30px 39px 60px 39px;
-    }
-
-    .section1__title {
-        font-size: 24px;
-        line-height: 1.73;
-    }
-
-    .section1__text {
-        margin-top: 30px;
-        font-size: 20px;
-        line-height: 1.5;
-    }
-
-    .go-button__container {
-        width: 91px;
-    }
-}
-
-@media all and (min-width:1280px) {
-
-    .section1__tag {
-        font-size: 16px;
-        line-height: 1.88;
-    }
-
-    .section1__title {
-        font-size: 32px;
-        line-height: 1.41;
-    }
-
-    .go-button__container {
-        width: 160px;
-    }
-}
-
-// Section 2
+// Section 2 mobile version
 
 .section2 {
     width: 100%;
@@ -157,4 +118,84 @@
     color: $color-light;
     text-decoration: none;
     line-height: 2.25;
+}
+
+// Tablet version
+
+@media all and (min-width:768px) {
+    
+    // Section 1
+
+    .section1__container {
+        margin: 30px 39px 60px 39px;
+    }
+
+    .section1__title {
+        font-size: 24px;
+        line-height: 1.73;
+    }
+
+    .section1__text {
+        margin-top: 30px;
+        font-size: 20px;
+        line-height: 1.5;
+    }
+
+    .go-button__container {
+        width: 91px;
+    }
+
+    // Section 2
+
+    .section2 {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+
+    .section2__title {
+        font-size: 26px;
+        line-height: 1.73;
+    }
+
+    .section2__list {
+        margin-bottom: 60px;
+        grid-template-columns: 212px 212px 212px;
+        grid-column-gap: 27px;
+        justify-content: center;
+    }
+
+    .item__title {
+        font-size: 24px;
+        line-height: 1.25;
+    }
+
+    .item__text {
+        font-size: 20px;
+        line-height: 1.5;
+    }
+
+    .more-reasons__container {
+        width: 210px;
+    }
+}
+
+// Desktop version
+
+@media all and (min-width:1280px) {
+
+    // Section 1
+
+    .section1__tag {
+        font-size: 16px;
+        line-height: 1.88;
+    }
+
+    .section1__title {
+        font-size: 32px;
+        line-height: 1.41;
+    }
+
+    .go-button__container {
+        width: 160px;
+    }
 }
