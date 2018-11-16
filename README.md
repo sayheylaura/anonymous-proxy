@@ -6,7 +6,7 @@ This is a final evaluation exercise for the first sprint in [Adalab](https://ada
 
 - Create a proper file and directory structure for a web project.
 
-- Use of a version control system.
+- Use of a version control system (Git and GitHub).
 
 - Create HTML and Sass code with a correct syntax, and correctly indented.
 
