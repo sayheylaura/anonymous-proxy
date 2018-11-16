@@ -7,6 +7,14 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
+    position: relative;
+}
+
+.header__anchor {
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 0;
 }
 
 .menu__button {

@@ -9,6 +9,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
+}
+
+.section1__anchor {
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 0;
 }
 
 .section1__container {
