@@ -95,6 +95,20 @@
   }
 }
 
+@keyframes scroll-down {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(50%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
 .scroll-down__container {
   width: 45px;
   height: 45px;
@@ -103,6 +117,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  animation: scroll-down 3s infinite;
 }
 
 .scroll-down__link {
